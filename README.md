@@ -1,3 +1,5 @@
+[![Performance Tests](https://github.com/danielbxs/k6-performance-testing/actions/workflows/performance-tests.yml/badge.svg)](https://github.com/danielbxs/k6-performance-testing/actions/workflows/performance-tests.yml)
+
 # Ticket Center API Performance Testing with k6
 
 This project demonstrates performance tests of a locally hosted ticket-reservation API using the k6 framework. It covers the main user journeys of listing all events, viewing one event, and creating a reservation under smoke, load, stress, and spike workloads.
