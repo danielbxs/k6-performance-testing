@@ -1,0 +1,20 @@
+{
+  "name": "ticket-center-k6-performance",
+  "version": "1.0.0",
+  "description": "k6 performance tests for the local Ticket Center API.",
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api": "npm --prefix api run start",
+    "api:dev": "npm --prefix api run dev",
+    "smoke": "k6 run tests/smoke.js",
+    "load": "k6 run tests/load.js",
+    "spike": "k6 run tests/spike.js",
+    "stress": "k6 run tests/stress.js"
+  }
+}

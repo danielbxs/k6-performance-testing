@@ -1,0 +1,20 @@
+{
+  "name": "ticket-center",
+  "version": "1.0.0",
+  "description": "Local Ticket Center API used as a k6 performance test target.",
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
